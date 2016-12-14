@@ -8,15 +8,14 @@
 
 }
 
-.container {
+.container2 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width:100%;
     height:100%;
     padding: 0;
-    background: #007B3C;
-    opacity: 72;
+    background: rgba(0,123,60,.72);
     overflow:hidden;
 }
 
@@ -34,7 +33,18 @@ html, body {
     overflow:hidden;
 }
 
+
 h1 {
+    text-align: left;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25pt;
+    margin: 0;
+    width: 50%;
+    display: inline;
+}
+
+h1.titles {
     text-align: left;
     color: white;
     font-family: 'Fjalla One', sans-serif;
@@ -73,7 +83,7 @@ div.quotes {
 div.quotes > p {
     color: white;
     text-align: center;
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: italic;
     font-size: 15pt;
 }
@@ -91,4 +101,45 @@ div.footer > p {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
     font-size: 15pt;
+}
+
+.conference-description {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 14pt;
+    text-align: left;
+    vertical-align: middle;
+    display: block;
+    padding-left: 2.5%;
+}
+
+#conference-image {
+    max-width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+#conference-info {
+    padding-top: 2%;
+}
+
+#conference-schedule {
+    /*padding-top: 2%;*/
+    max-height: 50%;
+    overflow-y: scroll;
+    padding-bottom: 5%;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 14pt;
+}
+
+p.schedule-title {
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 14pt;
+}
+
+p.indent {
+    text-indent: 1.8em;
 }
