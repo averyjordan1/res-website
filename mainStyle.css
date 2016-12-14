@@ -143,3 +143,23 @@ p.schedule-title {
 p.indent {
     text-indent: 1.8em;
 }
+
+.rice-l-logo {
+    max-width: 47%;
+}
+
+.l1-logo {
+    max-width: 75%;
+}
+
+.l2-logo {
+    max-width: 70%;
+}
+.l3-logo {
+    max-width: 60%;
+}
+
+.level-title {
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
