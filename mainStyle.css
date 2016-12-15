@@ -16,7 +16,7 @@
     height:100%;
     padding: 0;
     background: rgba(0,123,60,.72);
-    overflow:hidden;
+    /*overflow:hidden;*/
 }
 
 .photo-background {
@@ -29,8 +29,9 @@
 html, body {
     height:100%;
     margin:0;
+    background-color: rgba(0,123,60,.72);;
     padding:0;
-    overflow:hidden;
+    /*overflow:hidden;*/
 }
 
 
@@ -56,9 +57,9 @@ h1.titles {
 
 a.top {
     text-align: right;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 16pt;
-    color: white;
+    font-family: 'Fjalla One', sans-serif !important;
+    font-size: 16pt !important;
+    color: white !important;
     display: inline;
 }
 
@@ -113,6 +114,16 @@ div.footer > p {
     padding-left: 2.5%;
 }
 
+.about-us {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 14pt;
+    text-align: left;
+    vertical-align: middle;
+    display: block;
+    padding-left: 2.5%;
+}
+
 #conference-image {
     max-width: 75%;
     display: block;
@@ -140,6 +151,15 @@ p.schedule-title {
     font-size: 14pt;
 }
 
+p.about-us-title {
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 p.indent {
     text-indent: 1.8em;
 }
@@ -156,10 +176,29 @@ p.indent {
     max-width: 70%;
 }
 .l3-logo {
-    max-width: 60%;
+    max-width: 50%;
+    padding: .5%;
 }
 
 .level-title {
     font-family: 'Fjalla One', sans-serif;
     color: white;
 }
+
+.register-link {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.nav-override {
+    background-color: rgba(0, 0, 0, .5) !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.nav-text-override {
+    color: white !important;
+    font-family: 'Fjalla One', sans-serif !important;
+}
+
+
